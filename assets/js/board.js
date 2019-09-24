@@ -26,7 +26,6 @@ class Board {
     this.lists.push(list);
   }
 }
-
 var board = new Board();
 board.addList('New list');
 board.lists[0].addCard('New card');
